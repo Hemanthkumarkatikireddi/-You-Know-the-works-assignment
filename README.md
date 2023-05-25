@@ -1,3 +1,5 @@
 # - " You Know the works " company-assignment
-Link : assignmenthk.ccbp.tech
+Link : https://hemanthkumarkatikireddi.github.io/-You-Know-the-works-assignment/
+(assignmenthk.ccbp.tech)
+
 
