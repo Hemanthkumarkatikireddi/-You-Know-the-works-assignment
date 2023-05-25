@@ -1,0 +1,329 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    padding: 10px 5px;
+    height: auto;
+    background-color: pink;
+    font-family: Roboto;
+    color: #361766;
+}
+
+
+
+.fa-solid {
+    font-size: 35px;
+    border: solid 4px #361766;
+    border-radius: 60%;
+    padding: 12px 20px;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.main-title {
+    margin: 5px 0px;
+}
+
+.title {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.person-profile-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.person-profile {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.list5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+
+}
+
+.person-name {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    justify-content: center;
+
+    width: 50%;
+    height: 125px;
+    border-bottom: solid 2px #361766;
+}
+
+.person-details {
+    font-weight: 600;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 125px;
+    padding: 5px 10px;
+    border-bottom: solid 2px #361766;
+    border-left: solid 2px #361766;
+}
+
+.address {
+    font-size: 12px;
+}
+
+.person-year {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    padding-left: 20px;
+}
+
+.year {
+    width: 30%;
+}
+
+.year-details {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+b {
+    font-size: 12px;
+}
+
+.list3 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 2px #361766;
+    border-top: solid 2px #361766;
+}
+
+.font {
+    width: 60%;
+}
+
+.rate {
+    border: solid 5px #361766;
+    border-radius: 60px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 0px 10px;
+}
+
+.rating {
+    display: flex;
+    width: 50%;
+}
+
+.rate {
+    margin: 0px 2px;
+}
+
+.main-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 150px;
+}
+
+.awards {
+    width: 50%;
+    height: 150px;
+    padding: 5px 0px;
+    padding-top: 5px;
+    border-left: solid 2px #361766;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list4 {
+    display: flex;
+    width: 80%;
+    height: 120px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: space-around;
+    border-bottom: solid 2px #361766;
+}
+
+li {
+    list-style: none;
+}
+
+.person-intrests {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intrests-style {
+    text-align: center;
+}
+
+.intrests {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.intrest-icon {
+    font-size: 30px;
+    color: pink;
+    background-color: #361766;
+}
+
+@media screen and (min-width: 300px) {
+    p {
+        font-size: 6px;
+    }
+
+    .heading {
+        font-size: 15px;
+    }
+
+    .address {
+        font-size: 8px;
+    }
+
+    b {
+        font-size: 8px;
+    }
+
+    .rating {
+        width: 2%;
+    }
+
+    .rate {
+        border: solid 3px;
+    }
+
+    .intrests {
+        height: auto;
+    }
+
+    .intrest-icon {
+        font-size: 12px;
+        border: solid 1px;
+        padding: 10px;
+    }
+
+    .fa-solid {
+        font-size: 25px;
+        border: solid 3px;
+        padding: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 480px) {
+    p {
+        font-size: 9px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .address {
+        font-size: 12px;
+    }
+
+    b {
+        font-size: 12px;
+    }
+
+    .rating {
+        width: 50%;
+    }
+
+    .rate {
+        border: solid 4px #361766;
+        border-radius: 60px;
+    }
+
+    .intrests {
+        height: auto;
+    }
+
+    .fa-solid {
+        font-size: 35px;
+        border: solid 4px #361766;
+        border-radius: 60%;
+        padding: 12px 20px;
+    }
+
+    .intrest-icon {
+        font-size: 30px;
+        color: pink;
+        background-color: #361766;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 12px;
+    }
+}
